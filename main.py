@@ -34,7 +34,7 @@ while True:
              exit()
     #получение кортинки
     snapshot = cam.get_image(snapshot)
-
+    graphic.fill((0,0,0))
     #анализ изображения
     for x in range(0,width//2):
         y = int(-naklon*x + height-sdvig - 1)
